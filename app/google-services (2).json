@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "565026515283",
-    "project_id": "pm2e1200630520001",
-    "storage_bucket": "pm2e1200630520001.firebasestorage.app"
+    "project_number": "874922373978",
+    "project_id": "examen-c074f",
+    "storage_bucket": "examen-c074f.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:565026515283:android:b57a30d03de606ffb399a6",
+        "mobilesdk_app_id": "1:874922373978:android:def7e71f88526cfc89b963",
         "android_client_info": {
           "package_name": "com.example.pm2e1200630520001"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDf12_OaxbSCIAfZPUYthnagDmx49hOBnM"
+          "current_key": "AIzaSyBzDrFjSVfeEAKxHlUhdU2GzunW35cla9M"
         }
       ],
       "services": {
