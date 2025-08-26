@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Campos de contacto -->
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/edtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/edtNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edtLatitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Latitud"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/edtLongitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Longitud"
+            android:inputType="numberDecimal"/>
+
+        <!-- Botones para foto y audio -->
+        <Button
+            android:id="@+id/btnFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Foto"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grabar Audio"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Vista previa de la imagen -->
+        <ImageView
+            android:id="@+id/imgVistaPrevia"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Vista previa de la foto"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"/>
+
+        <!-- Botones de guardar y ver lista -->
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Contacto"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnVerLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Lista de Contactos"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
